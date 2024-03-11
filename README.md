@@ -51,3 +51,26 @@
       Stream<Person> personStream = Stream.of(getPersonArray());
       personStream.forEach(person -> System.out.println(person.getFirstName()));
       ```
+### WHILE LOOP
+  - Iterates through a block of code repeatedly until a boolean condition becomes false.
+
+    - Example:
+    ```java
+    int i = 0;
+    while (i < person.getPersonList().size()) {
+    System.out.println(person.getPersonList().get(i).getFistName());
+    i++;
+    }
+    ```
+
+## DO WHILE LOOP
+- Iterates through a block of code while a boolean condition is true. Use this when you need to iterate through code at least once.
+
+    - Example:
+    ```java
+    int i = 0;
+    do {
+    System.out.println(person.getPersonList().get(i).getFistName());
+    i++;
+    } while (i < person.getPersonList().size());(i < person.getPersonList().size());
+     ```
