@@ -81,28 +81,20 @@
 - Determines if a string is the same forwards and backwards.
 
   - For loop Example:
-  ```java
-    String replace = original.replace(" ", "");
-    char[] originalArray = replace.toCharArray();
-    CharArrayWriter reverseArray = new CharArrayWriter();
-    for (int i = originalArray.length - 1; i >= 0; i--) {
-    reverseArray.append(originalArray[i]);
-    }
-    String reverse = reverseArray.toString();
-    if (reverse.equalsIgnoreCase(replace)) {
-    System.out.println(original + " is a palindrome");
-    } else {
-    System.out.println(original + " is not a palindrome");
-    }
-  ```
+    
+    [For Loop](src/main/java/com/example/javaPractice/basicPrograms/Palindrome.java)
+    - Line 19
+
   - StringBuilder Example:
-  ```java
-    String replace = original.replace(" ", "");
-    StringBuilder reverseString = new StringBuilder(replace);
-    reverseString.reverse();
-    if (reverseString.toString().equalsIgnoreCase(replace)) {
-    System.out.println(original + " is a palindrome");
-    } else {
-    System.out.println(original + " is not a palindrome");
-    }
-  ```
+      
+    [StringBuilder](src/main/java/com/example/javaPractice/basicPrograms/Palindrome.java)
+    - Line 36
+
+
+## PRIME NUMBER PROGRAM
+
+- Determines if a number is prime.
+
+  - Example:
+        
+    [Is Prime Number](src/main/java/com/example/javaPractice/basicPrograms/PrimeNumber.java)
