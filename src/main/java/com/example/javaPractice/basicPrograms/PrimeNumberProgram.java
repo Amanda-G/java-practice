@@ -1,9 +1,9 @@
 package com.example.javaPractice.basicPrograms;
 
-public class PrimeNumber {
+public class PrimeNumberProgram {
 
   public static void main(String[] args) {
-    PrimeNumber pr = new PrimeNumber();
+    PrimeNumberProgram pr = new PrimeNumberProgram();
     pr.isPrimeStatement(11);
     pr.isPrimeStatement(12);
     pr.isPrimeStatement(15);
@@ -24,7 +24,7 @@ public class PrimeNumber {
   }
 
   public void isPrimeStatement(int number){
-    PrimeNumber pr = new PrimeNumber();
+    PrimeNumberProgram pr = new PrimeNumberProgram();
     if (pr.isPrimeNumber(number)){
       System.out.println(number + " is prime");
     } else {

@@ -98,3 +98,19 @@
   - Example:
         
     [Is Prime Number](src/main/java/com/example/javaPractice/basicPrograms/PrimeNumber.java)
+
+## FACTORIAL PROGRAM
+
+- Find the factorial of any number
+
+  - Example with Loop:
+
+    [Find Factorial Using Loop](src/main/java/com/example/javaPractice/basicPrograms/FactorialProgram.java)
+    - **Line 13**
+
+  - Example with Recursion:
+
+    - Recursion: process in which a method calls itself continuously (usually until some condition is met)
+    
+      [Find Factorial Using Recursion](src/main/java/com/example/javaPractice/basicPrograms/FactorialProgram.java)
+    - **Line 21**

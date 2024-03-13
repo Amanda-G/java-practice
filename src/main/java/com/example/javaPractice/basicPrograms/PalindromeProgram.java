@@ -1,16 +1,15 @@
 package com.example.javaPractice.basicPrograms;
 
 import java.io.CharArrayWriter;
-import java.util.Arrays;
 
-public class Palindrome {
+public class PalindromeProgram {
 
   public static void main(String[] args) {
-    Palindrome p = new Palindrome();
+    PalindromeProgram p = new PalindromeProgram();
     p.isPalindromeWithCharArray("RaceCar");
     p.isPalindromeWithCharArray("Flower");
     p.isPalindromeWithCharArray("Never a foot too far even");
-    Palindrome p2 = new Palindrome();
+    PalindromeProgram p2 = new PalindromeProgram();
     p2.isPalindromeWithStringBuilder("RaceCar");
     p2.isPalindromeWithStringBuilder("Flower");
     p2.isPalindromeWithStringBuilder("Never a foot too far even");
