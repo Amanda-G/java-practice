@@ -114,3 +114,20 @@
     
       [Find Factorial Using Recursion](src/main/java/com/example/javaPractice/basicPrograms/FactorialProgram.java)
     - **Line 21**
+
+# ARRAY PROGRAMS
+
+## PRINT ARRAY
+- Printing Array values forwards and reverse
+
+    [Printing Array Values](src/main/java/com/example/javaPractice/ArrayPrograms/PrintArray.java)
+
+## PRINT DUPLICATES
+- Print duplicate Values in an array
+        
+    [Print Duplicate Values](src/main/java/com/example/javaPractice/ArrayPrograms/PrintDuplicates.java)
+
+## SORT ARRAY
+- Sorting Array Values ascending and descending
+        
+    [Sort Array Values](src/main/java/com/example/javaPractice/ArrayPrograms/SortArray.java)
